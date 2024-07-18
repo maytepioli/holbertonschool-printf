@@ -7,7 +7,6 @@
  *
  *
  *
- *
  */
 int _printf(const char *format, ...)
 {
@@ -52,6 +51,12 @@ int _printf(const char *format, ...)
 					_putchar('%');
 					contador++;
 					break;
+
+				default:
+					_putchar('%');
+					_putchar(format[i]);
+					contador =+ 2;
+					break;
 							
 			}
 
@@ -60,5 +65,6 @@ int _printf(const char *format, ...)
 		}
 	i++;
 	}
-	return 0;
+	va_end(ap);
+	return (contador);
 }
