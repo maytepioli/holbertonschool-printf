@@ -26,13 +26,13 @@ int _printf(const char *format, ...)
 		}
 		else 
 		{
-			i++;
-			switch(format[i])
+			switch(format[i + 1])
 			{
 				case 'c':
 					
 					_putchar((char)va_arg(ap, int));
 					contador++;
+					i++;
 					break;
 
 				case 's':
@@ -47,18 +47,21 @@ int _printf(const char *format, ...)
 						contador = write(1, str, _strlen(str));
 					
 					}
+					i++;
 					break;
 
 				case '%':
 					_putchar('%');
 					contador++;
+					i++;
 					break;
 
 				case '\0':
 					break;
 
 				default:
-					_putchar('%');
+					_putchar(format[i]);
+					i++;
 					_putchar(format[i]);
 					contador =+ 2;
 					break;
