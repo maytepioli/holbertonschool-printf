@@ -68,7 +68,7 @@ int _printf(const char *format, ...)
 
 				default:
 					_putchar('%');
-					_putchar(format[i + 1]);
+					_putchar(format[i]);
 					contador  =+ 2;
 					i++;
 					break;
