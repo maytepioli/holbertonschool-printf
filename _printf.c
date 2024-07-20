@@ -64,11 +64,13 @@ int _printf(const char *format, ...)
 					break;
 
 				default:
-					_putchar('%');
+					_putchar(format[i]);
+					contador++;
+					_putchar(format[i + 1]);
+					contador++;
 					i++;
 					_putchar(format[i]);
-					contador  =+ 2;
-					i++;
+					contador =+ 2;
 					break;
 							
 			}
