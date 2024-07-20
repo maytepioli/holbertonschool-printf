@@ -60,7 +60,6 @@ int _printf(const char *format, ...)
 					break;
 
 				case '\0':
-					contador = -1;
 					break;
 
 				default:
@@ -69,9 +68,8 @@ int _printf(const char *format, ...)
 					_putchar(format[i + 1]);
 					contador++;
 					i++;
-					_putchar(format[i]);
-					contador =+ 2;
 					break;
+
 							
 			}
 
