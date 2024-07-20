@@ -67,7 +67,6 @@ int _printf(const char *format, ...)
 					contador++;
 					_putchar(format[i + 1]);
 					contador++;
-					i++;
 					break;
 
 							
