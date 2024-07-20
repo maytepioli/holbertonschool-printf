@@ -12,8 +12,9 @@ int _printf(const char *format, ...)
 {
 	va_list ap;
 	int i = 0;
-	char *str;
+	char *str; 
 	int contador = 0;
+	int len;
 
 	va_start(ap, format);
 
@@ -39,12 +40,15 @@ int _printf(const char *format, ...)
 					str = va_arg(ap, char *);
 					if (str == NULL)
 					{
-						contador = write(1,"(null)", 6);
+						 write(1,"(null)", 6);
+						 contador += 6;
 						
 					}
 					else
 					{
-						contador = write(1, str, _strlen(str));
+						len = _strlen(str);
+						write(1, str, len);
+						contador += len;
 					
 					}
 					i++;
@@ -61,9 +65,10 @@ int _printf(const char *format, ...)
 
 				default:
 					_putchar(format[i]);
+					contador++;
+					_putchar(format[i + 1]);
+					contador++;
 					i++;
-					_putchar(format[i]);
-					contador =+ 2;
 					break;
 							
 			}

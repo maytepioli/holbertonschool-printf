@@ -48,6 +48,15 @@ int main(void)
     len2 = printf("%");
     printf("el valor de len es = %d\n", len, len2);
 
+    printf ("probando");
+   printf("\n");
+    len = _printf("Complete the sentence: You %s nothing, Jon Snow.\n", "know");
+    len2 = printf("Complete the sentence: You %s nothing, Jon Snow.\n", "know");
+
+    printf("Length of _printf output: %d\n", len);
+    printf("Length of printf output: %d\n", len2);
+
+
 	    return (0);
 }
 
