@@ -73,7 +73,6 @@ int _printf(const char *format, ...)
 		}
 	i++;
 	}
-	printf("%d", contador);
 	va_end(ap);
 	return (contador);
 }
