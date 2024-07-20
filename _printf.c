@@ -16,6 +16,9 @@ int _printf(const char *format, ...)
 	int contador = 0;
 	int len;
 
+	if (format == NULL)
+		return(-1);
+
 	va_start(ap, format);
 
 	while(format[i] != '\0')
@@ -57,17 +60,16 @@ int _printf(const char *format, ...)
 				case '%':
 					_putchar('%');
 					contador++;
-					i++;
 					break;
 
 				case '\0':
+					contador = -1;
 					break;
 
 				default:
-					_putchar(format[i]);
-					contador++;
+					_putchar('%');
 					_putchar(format[i + 1]);
-					contador++;
+					contador  =+ 2;
 					i++;
 					break;
 							

@@ -55,7 +55,8 @@ int main(void)
 
     printf("Length of _printf output: %d\n", len);
     printf("Length of printf output: %d\n", len2);
-
+    _printf("");
+    printf("");
 
 	    return (0);
 }
