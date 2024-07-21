@@ -20,6 +20,7 @@ _This project implements a simplified version of the standard C library function
 
 Click [here](https://repl.it) to try out some interactive examples with `_printf`. Modify the code snippets to see how `_printf` handles different formats and inputs.
 
+Click [here](https://gist.github.com/your-username/your-gist-id) to try out some interactive examples with `_printf`. Modify the code snippets to see how `_printf` handles different formats and inputs.
 
 _<h2>Files:</h2>_
 
