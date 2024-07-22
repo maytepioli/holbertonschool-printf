@@ -1,16 +1,7 @@
 _<h1>Custom Printf Fuction</h1>_
 
-  
+_This project implements a simplified version of the standard C library function printf using C programming language._ The function _printf supports formatting options for characters (%c), strings (%s), and the percent symbol (%%) _and integers (%d and %i). If an unsupported format specifier is encountered, the specifier itself is printed._
 
-
-
-
-
-
-
-
-
-_This project implements a simplified version of the standard C library function printf using C programming language._ The function _printf supports formatting options for characters (%c), strings (%s), and the percent symbol (%%). If an unsupported format specifier is encountered, it prints the specifier itself._
 
  _<h2>Features:</h2>_
  
