@@ -16,12 +16,6 @@ _This project implements a simplified version of the standard C library function
 - _<h4>Additional Functionality:</h4>_
    - _Handles NULL strings by printing "(null)"._
 
- ## Try It Online
-
-Click [here](https://repl.it) to try out some interactive examples with `_printf`. Modify the code snippets to see how `_printf` handles different formats and inputs.
-
-Click [here](https://gist.github.com/your-username/your-gist-id) to try out some interactive examples with `_printf`. Modify the code snippets to see how `_printf` handles different formats and inputs.
-
 _<h2>Files:</h2>_
 
 - _**main.h:**_ _Header file containing function declarations and necessary includes._
