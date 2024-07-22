@@ -6,7 +6,7 @@
 
 void print_string(char *str, int *contador);
 void print_default(const char *format, int *i, int *contador);
-
+void print_numero(int n, int *contador);
 /**
  * print_string - Prints a string or "(null)" if the string is NULL.
  * @str: The string to print.
@@ -39,6 +39,25 @@ void print_default(const char *format, int *i, int *contador)
 	_putchar(format[*i]);
 	*contador += 1;
 	_putchar(format[*i + 1]);
+}
+/**
+ * print_numero - Prints an integer as a string.
+ * @n: The integer to print.
+ * @contador: Pointer to the count of characters printed.
+ */
+
+void print_numero(int n, int *contador)
+{
+	if (n < 0)
+	{
+		_putchar('-');
+		*contador += 1;
+		n = -n;
+	}
+	if (n / 10)
+		print_numero(n / 10, contador);
+	_putchar((n % 10) + '0');
+	*contador += 1;
 }
 /**
  * _printf - Custom printf function.
@@ -84,6 +103,11 @@ int _printf(const char *format, ...)
 				case '%':
 					_putchar('%');
 					contador++;
+					i++;
+					break;
+				case 'i':
+				case 'd':
+					print_numero(va_arg(ap, int), &contador);
 					i++;
 					break;
 				case '\0':
