@@ -70,18 +70,21 @@ _<h2>Function Details</h2>_
    - _Calculates the length of the string 's'._
 - ___putchar(char c)___
   - _Writes the character c to the standard output._
- 
-### **Recursos para Inspirarte**
+ ## 😲 Antes y Después
 
-Aquí tienes algunos recursos que pueden inspirarte a añadir un toque de humor a tus proyectos:
+ __Antes de usar Mi codigo___
 
-- **[README.md Examples](https://github.com/search?q=README.md+examples)**: Busca ejemplos de README en GitHub para ver cómo otros han añadido humor.
-- **[Awesome README](https://github.com
+![Antes](https://i.pinimg.com/236x/d0/25/78/d025781f1c47914e7998f353220a206b.jpg)  
+
+ __Después de usar Mi codigo:__
+
+![Después](https://i.pinimg.com/236x/02/34/bd/0234bd2da5a29016c7f82e8fa5669781.jpg)  
 
     ## 🤓 Datos Curiosos
 
-- **¿Sabías que...?** Este proyecto usa más café que código. ☕
-- **Fun Fact**: Si combinas las teclas `Ctrl` + `Alt` + `Esc`, podrías desear no hacerlo... (en realidad, no hace nada, pero ¡la combinación suena genial!)
+-  __¿Sabías que...? Este proyecto usa más café que código.__ ☕
+ 
 
+ 
  
  https://github.com/maytepioli
