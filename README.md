@@ -74,17 +74,17 @@ _<h2>Function Details</h2>_
 
  __Antes de usar Mi codigo___
 
-![Antes](https://i.pinimg.com/236x/d0/25/78/d025781f1c47914e7998f353220a206b.jpg)  
+![Antes](https://i.pinimg.com/236x/d0/25/78/d025781f1c47914e7998f353220a206b.jpg)
 
- __Después de usar Mi codigo:__
+ __Después de usar Mi codigo:_
 
-![Después](https://i.pinimg.com/236x/02/34/bd/0234bd2da5a29016c7f82e8fa5669781.jpg)  
+![Después](https://i.pinimg.com/236x/02/34/bd/0234bd2da5a29016c7f82e8fa5669781.jpg)
 
     ## 🤓 Datos Curiosos
 
 -  __¿Sabías que...? Este proyecto usa más café que código.__ ☕
- 
 
- 
- 
+
+
+
  https://github.com/maytepioli
