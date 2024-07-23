@@ -3,7 +3,7 @@ _<h1>Custom Printf Fuction</h1>_
 _This project implements a simplified version of the standard C library function printf using C programming language._ The function _printf supports formatting options for characters (%c), strings (%s), and the percent symbol (%%). If an unsupported format specifier is encountered, it prints the specifier itself._
 
  _<h2>Features:</h2>_
- 
+
 | _Specifiers_ | _Description_                 |
 |--------------|------------------------------ |
 | '%c'         | _Print a single character_    |
@@ -12,7 +12,7 @@ _This project implements a simplified version of the standard C library function
 
 - _<h4>Unsupported Format Specifiers:</h4>_
    - _Prints the specifier as is._
- 
+
 - _<h4>Additional Functionality:</h4>_
    - _Handles NULL strings by printing "(null)"._
 
@@ -59,7 +59,7 @@ _<h2>Function Details</h2>_
 
 - ___print_string(char *str, int *contador)___
   - _uxiliary function used by _printf to print strings. If str is NULL, it prints "(null)"._
-  
+
 - __print_default(const char *format, int *i, int *counter)___
    - _Handles the default case for unsupported format specifiers._
  - ___strlen(const char *s)___
