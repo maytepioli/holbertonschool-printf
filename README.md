@@ -1,6 +1,7 @@
 _<h1>Custom Printf Fuction</h1>_
 
-_This project implements a simplified version of the standard C library function printf using C programming language._ The function _printf supports formatting options for characters (%c), strings (%s), and the percent symbol (%%). If an unsupported format specifier is encountered, it prints the specifier itself._
+_This project implements a simplified version of the standard C library function printf using C programming language._ The function _printf supports formatting options for characters (%c), strings (%s), and the percent symbol (%%) _and integers (%d and %i). If an unsupported format specifier is encountered, the specifier itself is printed._
+
 
  _<h2>Features:</h2>_
 
@@ -9,6 +10,7 @@ _This project implements a simplified version of the standard C library function
 | '%c'         | _Print a single character_    |
 | '%s'         | _Print a string of characters_|
 | '%%'         | _Print a percentage symbol_   |
+| %i & %d      |  _print a nomber int_
 
 - _<h4>Unsupported Format Specifiers:</h4>_
    - _Prints the specifier as is._
@@ -62,7 +64,24 @@ _<h2>Function Details</h2>_
 
 - __print_default(const char *format, int *i, int *counter)___
    - _Handles the default case for unsupported format specifiers._
+- ___void print_numero(int n, int *contador)___
+  -  _This function prints an integer recursively. Handles negative numbers and updates the printed character counter_
  - ___strlen(const char *s)___
    - _Calculates the length of the string 's'._
 - ___putchar(char c)___
   - _Writes the character c to the standard output._
+ 
+### **Recursos para Inspirarte**
+
+Aquí tienes algunos recursos que pueden inspirarte a añadir un toque de humor a tus proyectos:
+
+- **[README.md Examples](https://github.com/search?q=README.md+examples)**: Busca ejemplos de README en GitHub para ver cómo otros han añadido humor.
+- **[Awesome README](https://github.com
+
+    ## 🤓 Datos Curiosos
+
+- **¿Sabías que...?** Este proyecto usa más café que código. ☕
+- **Fun Fact**: Si combinas las teclas `Ctrl` + `Alt` + `Esc`, podrías desear no hacerlo... (en realidad, no hace nada, pero ¡la combinación suena genial!)
+
+ 
+ https://github.com/maytepioli
